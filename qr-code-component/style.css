@@ -13,14 +13,22 @@
 	box-sizing: border-box;
 }
 
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
 body {
 	background-color: var(--color-Light-gray);
 	font-family: "Outfit", sans-serif;
 	height: 100vh;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
 .container {
@@ -29,6 +37,7 @@ body {
 }
 
 .card {
+	margin-bottom: 15px;
 	background-color: var(--color-White);
 	width: 285px;
 	height: auto;
